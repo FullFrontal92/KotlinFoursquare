@@ -2,6 +2,7 @@ package com.example.ktl4square
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.parse.Parse
 
 class SignInActivity : AppCompatActivity() {
 
