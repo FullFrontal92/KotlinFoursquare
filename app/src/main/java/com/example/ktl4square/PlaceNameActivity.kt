@@ -85,6 +85,8 @@ class PlaceNameActivity : AppCompatActivity() {
         globalType = typeText.text.toString()
         globalAtmosphere = atmosphereText.text.toString()
 
+        val intent = Intent(applicationContext,MapsActivity::class.java)
+        startActivity(intent)
 
     }
 }
